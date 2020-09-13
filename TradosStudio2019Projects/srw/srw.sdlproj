@@ -1,0 +1,1829 @@
+<?xml version="1.0"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7f352b65-7b11-4def-94a1-6069a7997c09" SettingsBundleGuid="c7841830-6486-4907-bfbe-ebb69ab2ecee" Version="4.0.0.0" Owner="DESKTOP-HS8UPJE\wangyzj" ProjectTemplateGuid="10004f3b-4acf-4425-a3e3-38d3b3514276" ReferenceProjectGuid="00000000-0000-0000-0000-000000000000">
+  <LanguageDirections>
+    <LanguageDirection Guid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" SettingsBundleGuid="58c5ebae-dd3c-4c10-9b4f-5411bd9ddf02" TargetLanguageCode="zh-CN" SourceLanguageCode="en-us">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+  </LanguageDirections>
+  <TermbaseConfiguration>
+    <LanguageIndexMappings>
+      <Language>en-us</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>zh-CN</Language>
+    </LanguageIndexMappings>
+    <RecognitionOptions>
+      <ShowWithNoAvailableTranslation>false</ShowWithNoAvailableTranslation>
+      <MinimumMatchValue>70</MinimumMatchValue>
+      <SearchDepth>200</SearchDepth>
+      <SearchOrder>Parallel</SearchOrder>
+    </RecognitionOptions>
+  </TermbaseConfiguration>
+  <SettingsBundles>
+    <SettingsBundle Guid="c7841830-6486-4907-bfbe-ebb69ab2ecee">
+      <SettingsBundle>
+        <SettingsGroup Id="TerminologyProviderSettings">
+          <Setting Id="TermbasesOrder">
+            <ArrayOfstring xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            </ArrayOfstring>
+          </Setting>
+          <Setting Id="Termbases">
+            <ArrayOfTermbase xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi.Implementation.Xml">
+            </ArrayOfTermbase>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="PublishProjectOperationSettings">
+          <Setting Id="ServerUri" />
+          <Setting Id="OrganizationPath" />
+        </SettingsGroup>
+        <SettingsGroup Id="SourceContentSettings">
+          <Setting Id="AllowSourceEditing">False</Setting>
+          <Setting Id="AllowMergeAcrossParagraphs">False</Setting>
+          <Setting Id="EnableIcuTokenization">False</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="ProjectPlanningSettings">
+          <Setting Id="ServerUri" />
+          <Setting Id="OrganizationPath" />
+          <Setting Id="Assignments" />
+        </SettingsGroup>
+        <SettingsGroup Id="FileViewServiceSettings">
+          <Setting Id="SelectedTargetLanguageCode">zh-CN</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="Plugin.AnyTM.SourceLanguages">
+          <Setting Id="HasMixedSourceLanguages">False</Setting>
+          <Setting Id="AutoDetectSourceLanguage">True</Setting>
+          <Setting Id="SourceLanguages">en-us</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="FileTypeManagerConfigurationSettingsGroup">
+          <Setting Id="FileTypeManagerConfigurationSettings">
+            <FileTypeManagerConfigurationList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sdl.com/projectapi">
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SDL XLIFF 1.0 v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>TTX 2.0 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>ITD v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>DOC v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Word 2000-2003 v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>WordprocessingML v. 2</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>Word 2007 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PPT v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PowerPoint XP-2003 v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PresentationML v. 1</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PowerPoint 2007 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SpreadsheetML v. 1</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Excel 2007 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Excel 2003 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Bilingual Excel v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Bilingual Workbench 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>RTF v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Visio v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XHTML 1.1 v 1.2.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html 5 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html 4 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>FrameMaker 8.0 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Inx 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>IDML v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>ICML Filter 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Odt 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Odp 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Ods 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>QuarkXPress v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 1.1-1.2 v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>MemoQ v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 2.0 v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>WsXliff 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PDF v 3.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>CSV v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Tab Delimited v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Java Resources v 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PO files v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SubRip v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>JSON v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: RESX v 1.2.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: DITA 1.2 v 1.2.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>DocBook 4.5 v 1.2.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: Author-it 1.2 v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: MadCap 1.2 v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: ITS 1.0 v 1.2.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: Any v 1.2.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Plain Text v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>RTF v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PDF v 2.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: DITA 1.1 v 1.2.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+            </FileTypeManagerConfigurationList>
+          </Setting>
+          <Setting Id="FileTypeManagerSubContentConfigurationSettings">
+            <FileTypeManagerConfigurationList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sdl.com/projectapi">
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Embedded Content Plain Text v 1.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Embedded Content SpreadsheetML v. 1</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html Embedded Content 5 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html Embedded Content 4 2.0.0.0</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+            </FileTypeManagerConfigurationList>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="ExportForReviewTaskSettings">
+          <Setting Id="Location">C:\Users\wangyzj\Documents\Studio 2019\Projects\srw\External Review</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="TranslationQualityAssessmentSettings">
+          <Setting Id="AssessmentCategories">
+            <AssessmentCategories xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sdl.com/projectapi">
+            </AssessmentCategories>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="SettingsTermVerifier">
+          <Setting Id="Enabled">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="TranslationMemorySettings">
+          <Setting Id="HardFilter" />
+        </SettingsGroup>
+        <SettingsGroup Id="ReturningPackageSettings">
+          <Setting Id="RunVerificationBeforeReturningPackage">False</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="QAVerificationSettings">
+          <Setting Id="Enabled">True</Setting>
+          <Setting Id="ElementContextExclusionValue">True</Setting>
+          <Setting Id="ExclusionStringValue">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="SettingsTagVerifier">
+          <Setting Id="Enabled">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="ProjectTranslationMemoryTaskSettings">
+          <Setting Id="ServerConnectionUri" />
+          <Setting Id="ParentResourceGroupPath" />
+          <Setting Id="TranslationMemoryContainerPath" />
+        </SettingsGroup>
+        <SettingsGroup Id="TranslationMemoryUpdateTaskSettings">
+          <Setting Id="UpdateWithUnspecifiedSegments">True</Setting>
+          <Setting Id="UpdateWithDraftSegments">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="TranslateTaskSettings">
+          <Setting Id="NoTranslationMemoryMatchFoundAction">ApplyAutomatedTranslation</Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+    <SettingsBundle Guid="d4a506f8-3ac1-4d1b-b54e-ad31c12ce57d">
+      <SettingsBundle>
+        <SettingsGroup Id="IgnoredMessagesSettings">
+          <Setting Id="IgnoredMessagesData">
+            <IgnoredMessagesData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi">
+              <IgnoredMessageIds>
+              </IgnoredMessageIds>
+              <IgnoredMessageTypes xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              </IgnoredMessageTypes>
+            </IgnoredMessagesData>
+          </Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+    <SettingsBundle Guid="bf61484d-56a5-41ff-bcd5-f1b9d5e22c68">
+      <SettingsBundle>
+        <SettingsGroup Id="IgnoredMessagesSettings">
+          <Setting Id="IgnoredMessagesData">
+            <IgnoredMessagesData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi">
+              <IgnoredMessageIds>
+              </IgnoredMessageIds>
+              <IgnoredMessageTypes xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              </IgnoredMessageTypes>
+            </IgnoredMessagesData>
+          </Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+    <SettingsBundle Guid="b99652a8-c8df-495b-ace2-7852c3df6f3e">
+      <SettingsBundle>
+        <SettingsGroup Id="IgnoredMessagesSettings">
+          <Setting Id="IgnoredMessagesData">
+            <IgnoredMessagesData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi">
+              <IgnoredMessageIds>
+              </IgnoredMessageIds>
+              <IgnoredMessageTypes xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              </IgnoredMessageTypes>
+            </IgnoredMessagesData>
+          </Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+  </SettingsBundles>
+  <InitialTaskTemplate Description="ComplexTask_Prepare_NoProjectTM_Description" Name="ComplexTask_Prepare_NoProjectTM_Name" Id="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM">
+    <SubTaskTemplates>
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Conversion" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Split" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.PerfectMatch" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Analysis" />
+    </SubTaskTemplates>
+  </InitialTaskTemplate>
+  <AnalysisBands>
+    <AnalysisBand MinimumMatchValue="50" />
+    <AnalysisBand MinimumMatchValue="75" />
+    <AnalysisBand MinimumMatchValue="85" />
+    <AnalysisBand MinimumMatchValue="95" />
+  </AnalysisBands>
+  <ManualTaskTemplates />
+  <Users>
+    <User UserId="DESKTOP-HS8UPJE\wangyzj" FullName="wangyzj" Description="" Email="123@123.com" PhoneNumber="" EmailType="Smtp" />
+  </Users>
+  <CascadeItem OverrideParent="true" StopSearchingWhenResultsFound="false">
+    <CascadeEntryItem PerformConcordanceSearch="false" Penalty="0" PerformUpdate="false" PerformNormalSearch="true">
+      <MainTranslationProviderItem Uri="googlemt.https://translation.googleapis.com:443/?Model=Neural" Enabled="false" />
+    </CascadeEntryItem>
+  </CascadeItem>
+  <GeneralProjectInfo StartedAt="2020-09-03T17:31:38.7541317Z" IsInPlace="false" IsImported="false" Description="" Name="srw" Status="Started" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T17:29:43.0381485Z" />
+  <SourceLanguageCode>en-us</SourceLanguageCode>
+  <ProjectFiles>
+    <ProjectFile Guid="f22032c4-ec9f-45a1-95ab-326e9ebe5d48" Path="" Role="Translatable" Name="the-site-reliability-workbook.pdf" ParentProjectFileGuid="00000000-0000-0000-0000-000000000000" FilterDefinitionId="PDF v 3.0.0.0">
+      <SpecificTargetLanguages />
+      <LanguageFiles>
+        <LanguageFile Guid="dd727b74-1bcf-488e-a73a-1a95f2498ce6" SettingsBundleGuid="a76b56e8-e5a6-4461-8e60-25093ec9b36f" LanguageCode="en-us">
+          <FileVersions>
+            <FileVersion Guid="fdc5f373-d0ac-4e88-b17e-e61c8686a806" VersionNumber="1" Size="14262842" FileName="the-site-reliability-workbook.pdf" PhysicalPath="en-us\the-site-reliability-workbook.pdf" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T17:29:56.6363866Z" FileTimeStamp="2020-08-12T18:34:07.7458141Z" IsAutoUpload="false" />
+            <FileVersion Guid="e994d685-ce29-4aea-b9e2-77708ab73da0" VersionNumber="2" Size="23992812" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="en-us\the-site-reliability-workbook.pdf.sdlxliff" Comment="" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T17:33:01.5188645Z" FileTimeStamp="2020-09-03T17:33:00.9599098Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountStatus="None" AnalysisStatus="None">
+            <Total Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Repetitions Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewBaseline Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ChildFiles />
+        </LanguageFile>
+        <LanguageFile Guid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" SettingsBundleGuid="d4a506f8-3ac1-4d1b-b54e-ad31c12ce57d" LanguageCode="zh-CN">
+          <FileVersions>
+            <FileVersion Guid="cc13c233-bddd-403a-9347-e99d99934458" VersionNumber="3" Size="23992812" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T17:33:01.5188645Z" FileTimeStamp="2020-09-03T17:33:00.9599098Z" IsAutoUpload="false" />
+            <FileVersion Guid="f9802f61-8f02-4a20-96ad-606b33f46441" VersionNumber="4" Size="25433200" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" Comment="Created by '应用 PerfectMatch+预翻译文件+分析文件'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T17:34:14.5205122Z" FileTimeStamp="2020-09-03T17:34:13.9892698Z" IsAutoUpload="false" />
+            <FileVersion Guid="0ba341bf-1279-44d6-a9df-696a51a53128" VersionNumber="5" Size="26687669" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" Comment="Created by '预翻译文件'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T17:39:09.4629797Z" FileTimeStamp="2020-09-03T17:39:08.5092523Z" IsAutoUpload="false" />
+            <FileVersion Guid="90729181-3166-482f-947c-8ba41d984b96" VersionNumber="6" Size="28656265" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" Comment="Created by '预翻译文件'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-03T19:36:57.7202237Z" FileTimeStamp="2020-09-03T19:36:57.048348Z" IsAutoUpload="false" />
+            <FileVersion Guid="f9f3a4a3-7412-4de9-841a-de969b2f7d3e" VersionNumber="7" Size="28657925" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-04T11:29:35.5881275Z" FileTimeStamp="2020-09-04T11:29:34.6509704Z" IsAutoUpload="false" />
+            <FileVersion Guid="e7e1bce8-7505-4fbb-a4aa-160ffcadbf08" VersionNumber="8" Size="30367124" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-04T11:45:17.1325711Z" FileTimeStamp="2020-09-04T11:45:16.0703361Z" IsAutoUpload="false" />
+            <FileVersion Guid="2e152fb5-c1e0-49d7-ab11-31d41b082f97" VersionNumber="9" Size="30367124" FileName="the-site-reliability-workbook.pdf.sdlxliff" PhysicalPath="zh-CN\the-site-reliability-workbook.pdf.sdlxliff" Comment="Created by '更新项目翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-04T11:46:46.8969159Z" FileTimeStamp="2020-09-04T11:46:46.3342115Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountFileTimeStamp="2020-09-03T17:35:38.1830637Z" WordCountStatus="Complete" AnalysisFileTimeStamp="2020-09-03T17:34:13.9892698Z" AnalysisStatus="Complete">
+            <Total Words="160892" Characters="863354" Segments="12420" Placeables="23905" Tags="16558" />
+            <Repetitions Words="2642" Characters="16709" Segments="1192" Placeables="1919" Tags="965" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="158250" Characters="846645" Segments="11228" Placeables="21986" Tags="15593" />
+            <NewBaseline Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ConfirmationStatistics FileTimeStamp="2020-09-04T11:45:55.9712141Z" Status="Complete">
+            <Unspecified Words="1569" Characters="8294" Segments="118" Placeables="372" Tags="276" />
+            <Draft Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Translated Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <RejectedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <RejectedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedSignOff Words="159323" Characters="855060" Segments="12302" Placeables="23533" Tags="16282" />
+          </ConfirmationStatistics>
+          <ChildFiles />
+        </LanguageFile>
+      </LanguageFiles>
+      <PreviousBilingualFiles />
+    </ProjectFile>
+    <ProjectFile Guid="24f4fa12-a003-444c-b7cc-c8f222044709" Path="" Role="Reference" Name="srw.md" ParentProjectFileGuid="00000000-0000-0000-0000-000000000000">
+      <SpecificTargetLanguages />
+      <LanguageFiles>
+        <LanguageFile Guid="5ff5c691-98a0-45a9-a5c5-2f590e916e72" SettingsBundleGuid="31a0cbee-2d13-48c6-b820-30c41e1bc915" LanguageCode="en-us">
+          <FileVersions>
+            <FileVersion Guid="dc433561-783a-45d0-b827-090ea7041f4a" VersionNumber="1" Size="1228567" FileName="srw.md" PhysicalPath="en-us\srw.md" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-04T10:43:14.1669451Z" FileTimeStamp="2020-09-04T10:42:20.251249Z" IsAutoUpload="false" />
+          </FileVersions>
+          <ChildFiles />
+        </LanguageFile>
+      </LanguageFiles>
+      <PreviousBilingualFiles />
+    </ProjectFile>
+    <ProjectFile Guid="14b7d134-0c73-46d6-b5cb-9c499f076d33" Path="" Role="Translatable" Name="srw.txt" ParentProjectFileGuid="00000000-0000-0000-0000-000000000000" FilterDefinitionId="Plain Text v 1.0.0.0">
+      <SpecificTargetLanguages />
+      <LanguageFiles>
+        <LanguageFile Guid="b2fe126d-7b94-4cc5-8b87-0ac7309f23b7" SettingsBundleGuid="95c53a8a-4fc3-44fb-9012-708b8ea5f48d" LanguageCode="en-us">
+          <FileVersions>
+            <FileVersion Guid="0e9e7563-0205-4835-9211-7a32f42b1a83" VersionNumber="1" Size="1228567" FileName="srw.txt" PhysicalPath="en-us\srw.txt" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-08T17:53:42.0820813Z" FileTimeStamp="2020-09-04T10:45:29.6658071Z" IsAutoUpload="false" />
+            <FileVersion Guid="2970d3df-fed3-4c7d-a57a-c03e161ebbf2" VersionNumber="2" Size="5291043" FileName="srw.txt.sdlxliff" PhysicalPath="en-us\srw.txt.sdlxliff" Comment="" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-08T17:53:43.364379Z" FileTimeStamp="2020-09-08T17:53:43.2700988Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountStatus="None" AnalysisStatus="None">
+            <Total Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Repetitions Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewBaseline Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ChildFiles />
+        </LanguageFile>
+        <LanguageFile Guid="c440f5f7-1706-40c1-937b-5be51f902b93" SettingsBundleGuid="b99652a8-c8df-495b-ace2-7852c3df6f3e" LanguageCode="zh-CN">
+          <FileVersions>
+            <FileVersion Guid="66500bd3-ea31-458f-9239-e42fd72276e3" VersionNumber="3" Size="5291043" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-08T17:53:43.3790126Z" FileTimeStamp="2020-09-08T17:53:43.2700988Z" IsAutoUpload="false" />
+            <FileVersion Guid="63fc7e55-8574-448c-9d68-bad9c9f36a1b" VersionNumber="4" Size="6826858" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '应用 PerfectMatch+预翻译文件+分析文件'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-08T17:54:15.5061583Z" FileTimeStamp="2020-09-08T17:54:15.2874114Z" IsAutoUpload="false" />
+            <FileVersion Guid="ff629ce1-5602-4838-b864-90f515b0d266" VersionNumber="5" Size="10732679" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-08T17:59:17.9816327Z" FileTimeStamp="2020-09-08T17:59:17.5909111Z" IsAutoUpload="false" />
+            <FileVersion Guid="4b136450-b3f8-4431-beba-268b438e6794" VersionNumber="6" Size="10732679" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新项目翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-08T18:00:11.8364389Z" FileTimeStamp="2020-09-08T18:00:11.4604379Z" IsAutoUpload="false" />
+            <FileVersion Guid="9eb6b3d6-6c8f-4a9c-9251-65f0c283fc95" VersionNumber="7" Size="10777000" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-09T08:52:43.8105336Z" FileTimeStamp="2020-09-09T08:52:43.4045009Z" IsAutoUpload="false" />
+            <FileVersion Guid="5563cab7-7e4b-4da0-8968-56059e43937f" VersionNumber="8" Size="10818477" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-09T13:26:22.4723221Z" FileTimeStamp="2020-09-09T13:26:22.0821282Z" IsAutoUpload="false" />
+            <FileVersion Guid="a5807487-2995-4d96-bf89-d881f3a5421f" VersionNumber="9" Size="10932363" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-12T11:32:19.86574Z" FileTimeStamp="2020-09-12T11:32:19.4437808Z" IsAutoUpload="false" />
+            <FileVersion Guid="307eeb69-087b-4570-b7eb-ebb73d7862d4" VersionNumber="10" Size="11069911" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-12T14:00:11.8552288Z" FileTimeStamp="2020-09-12T14:00:11.4325268Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountFileTimeStamp="2020-09-08T17:54:15.2874114Z" WordCountStatus="Complete" AnalysisFileTimeStamp="2020-09-08T17:54:15.2874114Z" AnalysisStatus="Complete">
+            <Total Words="158722" Characters="927214" Segments="14578" Placeables="7143" Tags="0" />
+            <Repetitions Words="2153" Characters="50756" Segments="3734" Placeables="826" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="156569" Characters="876458" Segments="10844" Placeables="6317" Tags="0" />
+            <NewBaseline Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ConfirmationStatistics FileTimeStamp="2020-09-13T13:23:16.1303116Z" Status="Complete">
+            <Unspecified Words="104" Characters="910" Segments="65" Placeables="27" Tags="0" />
+            <Draft Words="122277" Characters="714594" Segments="11946" Placeables="5632" Tags="0" />
+            <Translated Words="36341" Characters="211710" Segments="2567" Placeables="1484" Tags="0" />
+            <RejectedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <RejectedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </ConfirmationStatistics>
+          <ChildFiles />
+        </LanguageFile>
+      </LanguageFiles>
+      <PreviousBilingualFiles />
+    </ProjectFile>
+  </ProjectFiles>
+  <Tasks>
+    <AutomaticTask Guid="4c1a11bf-df99-4a1b-bb57-b3ee7c92e133" Status="Completed" CompletedAt="2020-09-03T17:29:56.6363866Z" PercentComplete="100" CreatedAt="2020-09-03T17:29:56.6363866Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T17:29:56.6363866Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="e8a40d5a-117b-4cac-9d87-8ea01223210b" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="dd727b74-1bcf-488e-a73a-1a95f2498ce6" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="dd727b74-1bcf-488e-a73a-1a95f2498ce6" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="fe48033a-7513-4a3b-a8e4-69914bf2a4e1" Status="Completed" CompletedAt="2020-09-03T17:33:01.5188645Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-03T17:31:38.7541317Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T17:31:38.7687914Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="58058872-ff44-471c-bb32-25fea34e8003" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="dd727b74-1bcf-488e-a73a-1a95f2498ce6" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="dd727b74-1bcf-488e-a73a-1a95f2498ce6" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="6c14820e-6220-4801-8e40-8e4124c364ff" Status="Completed" CompletedAt="2020-09-03T17:33:01.5491383Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-03T17:31:38.7541317Z" PredecessorTaskGuid="fe48033a-7513-4a3b-a8e4-69914bf2a4e1" StartedAt="2020-09-03T17:33:01.5188645Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="17812136-4777-4c55-b1e0-f8b2fffcac07" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="dd727b74-1bcf-488e-a73a-1a95f2498ce6" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="7ccb5da8-7bda-42fd-8a0b-66d324f8d888" Status="Completed" CompletedAt="2020-09-03T17:34:14.5517534Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-03T17:31:38.7541317Z" PredecessorTaskGuid="6c14820e-6220-4801-8e40-8e4124c364ff" StartedAt="2020-09-03T17:33:01.5491383Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="a2821dd0-8724-48ed-863a-21bedd4475e9" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="0312b811-58f3-4103-95d1-2376bc634f7b" Name="预翻译文件报告" Description="将翻译记忆库应用到文件的结果。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\预翻译文件 en-us_zh-CN.xml" />
+        <Report Guid="5042edb6-f6a0-4879-973c-0b2066f9aeae" Name="分析文件报告" Description="统计数据显示可通过应用翻译记忆库获得的预期利用。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Analysis" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\分析文件 en-us_zh-CN.xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="dbdbb0d7-6e5b-4009-9d33-75afd17d47d8" Status="Completed" CompletedAt="2020-09-03T17:36:13.6684752Z" PercentComplete="100" CreatedAt="2020-09-03T17:36:00.2568841Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T17:36:00.4756008Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.WordCount</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="042f6f6a-6616-465b-8431-71c70bc08028" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="78a46504-e49d-4fa0-b368-e6abac71f626" Name="字数计算报告" Description="统计数据显示每个文件中的字数。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.WordCount" LanguageDirectionGuid="00000000-0000-0000-0000-000000000000" PhysicalPath="Reports\字数计算 .xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="c851bf15-03dd-4135-bf7e-980a9362040e" Status="Completed" CompletedAt="2020-09-03T17:39:09.4779165Z" PercentComplete="100" CreatedAt="2020-09-03T17:38:08.5230364Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T17:38:08.5384119Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="e4f7f09b-fde5-439c-97dc-e961ed294b63" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="be314091-0c35-4ed3-9ea4-b9f03271b978" Name="预翻译文件报告" Description="将翻译记忆库应用到文件的结果。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\预翻译文件 en-us_zh-CN(1).xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="e6bd7b88-0347-4efa-8ab6-82824be10a55" Status="Completed" CompletedAt="2020-09-03T19:36:57.7514717Z" PercentComplete="100" CreatedAt="2020-09-03T17:40:12.1481557Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T17:40:12.1637842Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="2fe53a06-6bb9-4a30-92e8-9624e2816c4b" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="52e1e14d-72ab-4f45-8e04-75df6ac84f09" Name="预翻译文件报告" Description="将翻译记忆库应用到文件的结果。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\预翻译文件 en-us_zh-CN(2).xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="6d531bb6-7239-4e67-a9c8-ed76bfe6e563" Status="Completed" CompletedAt="2020-09-03T19:45:47.2952654Z" PercentComplete="100" CreatedAt="2020-09-03T19:45:30.6703615Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T19:45:30.7640158Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.ExportForReview</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="b96637d7-f16c-4e30-ba58-6f3db60aa169" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="3f2839db-76d5-4c6e-b319-30999d95c659" Status="Completed" CompletedAt="2020-09-03T19:50:36.1510002Z" PercentComplete="100" CreatedAt="2020-09-03T19:50:14.0885029Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-03T19:50:14.2291296Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.GenerateTargetTranslation.ExportFiles</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="af91563c-2ebd-4ba3-bd42-03d8e1f9c85f" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000">
+            <Messages Level="Warning" Message="在句段 '532' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark7&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '538' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark27&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '714' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark615&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '727' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark717&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1326' 处发现多余的标记 '&lt;hyperlink value=&quot;http://facebook.com/oreilly&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1328' 处发现多余的标记 '&lt;hyperlink value=&quot;http://twitter.com/oreillymedia&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1330' 处发现多余的标记 '&lt;hyperlink value=&quot;http://www.youtube.com/oreillymedia&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1436' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LRFkHt&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1447' 处发现多余的标记 '&lt;hyperlink value=&quot;https://www.atlassian.com/devops&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1447' 处发现多余的标记 '&lt;hyperlink value=&quot;https://www.atlassian.com/devops&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1461' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J9m5HG&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1475' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2Js80IK&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1557' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2sqVEXL&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1613' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J1qnFf&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1709' 处发现多余的标记 '&lt;hyperlink value=&quot;https://amzn.to/2GZSY86&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1829' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark159&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '3024' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark113&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '3024' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark113&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '3061' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LQYspl&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J2Po2W&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J2Po2W&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark613&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark714&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark779&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4449' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2JgUBU7&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4724' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark575&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4794' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2sAgzqJ&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '5837' 处发现多余的标记 '&lt;hyperlink value=&quot;mailto:all_engineering_employees@google.com&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '6351' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LQ6TRQ&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '6488' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark915&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '6488' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2vgpMsX&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '7150' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2JmC8oT&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '7291' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1053&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '7478' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J5tPum&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8066' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J6JA8F&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8071' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1179&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8110' 处发现多余的标记 '&lt;hyperlink value=&quot;https://kubernetes.io/&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8153' 处发现多余的标记 '&lt;hyperlink value=&quot;http://www.dangoldstein.com/papers/DefaultsScience.pdf&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8293' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2xyjq9f&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9325' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2Hdgf6t&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9421' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LPemR2&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9535' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LPemR2&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9787' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1743&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9787' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1743&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '10099' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2KNCD9F&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '10182' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2sAoKTX&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '10775' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2xCtP3S&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '11412' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark833&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '12186' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark114&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+          </Result>
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="3493fd09-3a03-426e-8ed2-e2a809e23933" Status="Completed" CompletedAt="2020-09-04T10:43:14.1825693Z" PercentComplete="100" CreatedAt="2020-09-04T10:43:14.1669451Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T10:43:14.1825693Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="cd4201c1-c295-41b5-8c45-d2c3f9737bbd" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="5ff5c691-98a0-45a9-a5c5-2f590e916e72" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="5ff5c691-98a0-45a9-a5c5-2f590e916e72" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="8ab12c56-440d-487f-92b5-215e1cd45475" Status="Completed" CompletedAt="2020-09-04T10:43:14.1981938Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:43:14.1825693Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T10:43:14.1825693Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="01b1bc02-61b3-452c-b0de-1330aeebf7ef" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="5ff5c691-98a0-45a9-a5c5-2f590e916e72" Purpose="ReferenceFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="5ff5c691-98a0-45a9-a5c5-2f590e916e72" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="8316b38c-f4e5-4199-8843-f5c829dcf9d4" Status="Completed" CompletedAt="2020-09-04T10:43:14.2294462Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:43:14.1825693Z" PredecessorTaskGuid="8ab12c56-440d-487f-92b5-215e1cd45475" StartedAt="2020-09-04T10:43:14.2138198Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="8fb9f199-7808-4f5d-8f09-bd441c6fce83" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="5ff5c691-98a0-45a9-a5c5-2f590e916e72" Purpose="ReferenceFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="297037c0-d617-4584-b929-4d756df99cb4" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="d0b8e580-5fc0-44c5-9483-5c466985e737" Status="Completed" CompletedAt="2020-09-04T10:43:14.2450699Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:43:14.1825693Z" PredecessorTaskGuid="8316b38c-f4e5-4199-8843-f5c829dcf9d4" StartedAt="2020-09-04T10:43:14.2294462Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="297037c0-d617-4584-b929-4d756df99cb4" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="8d2140ee-7b85-4fd0-b99b-944314931c8f" Status="Completed" CompletedAt="2020-09-04T10:46:00.7667872Z" PercentComplete="100" CreatedAt="2020-09-04T10:46:00.4074211Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T10:46:00.4074211Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="b2b7f464-8d1b-4050-a9c7-d450971b9bcc" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="2b9fa474-2736-4d76-94e0-28f880d50c18" Status="Completed" CompletedAt="2020-09-04T10:46:02.2667604Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:46:00.7667872Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T10:46:00.7667872Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="b2b7f464-8d1b-4050-a9c7-d450971b9bcc" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="20d2c58c-1ff2-41f8-9287-66cdcf646725" Status="Completed" CompletedAt="2020-09-04T10:46:02.2826501Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:46:00.7667872Z" PredecessorTaskGuid="2b9fa474-2736-4d76-94e0-28f880d50c18" StartedAt="2020-09-04T10:46:02.2667604Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="aa481068-4790-4337-b9de-ebc0d2a6d9d7" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="e62000c1-51e1-49bf-828e-644586c5a7ef" Status="Cancelled" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="38" CreatedAt="2020-09-04T10:46:00.7667872Z" PredecessorTaskGuid="20d2c58c-1ff2-41f8-9287-66cdcf646725" StartedAt="2020-09-04T10:46:02.2826501Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="8636747f-5af4-43ef-888a-5b6dfe3c3bbe" Status="Completed" CompletedAt="2020-09-04T10:52:53.2166983Z" PercentComplete="100" CreatedAt="2020-09-04T10:52:53.0806964Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T10:52:53.0806964Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="9f80223c-ae36-45d5-b7e7-09d0feb59df1" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="abfa7234-eb41-43ac-ba84-130623128140" Status="Completed" CompletedAt="2020-09-04T10:52:54.2015113Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:52:53.2166983Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T10:52:53.2166983Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="9f80223c-ae36-45d5-b7e7-09d0feb59df1" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="c969edc9-ca4d-45b1-8502-fa4d27a71546" Status="Completed" CompletedAt="2020-09-04T10:52:54.2167234Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:52:53.2166983Z" PredecessorTaskGuid="abfa7234-eb41-43ac-ba84-130623128140" StartedAt="2020-09-04T10:52:54.2015113Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="29aaa818-5262-4e61-8367-c90b301e992f" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="add3ee7c-b064-42a8-ba40-e7bac0858b42" Status="Completed" CompletedAt="2020-09-04T10:53:56.9232667Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-04T10:52:53.2166983Z" PredecessorTaskGuid="c969edc9-ca4d-45b1-8502-fa4d27a71546" StartedAt="2020-09-04T10:52:54.2167234Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="29aaa818-5262-4e61-8367-c90b301e992f" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="d75af8c1-845d-4901-8df8-045a41cdc792" Name="预翻译文件报告" Description="将翻译记忆库应用到文件的结果。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\预翻译文件 en-us_zh-CN(3).xml" />
+        <Report Guid="d7329925-aa59-4a39-b2ba-d51eac7c4845" Name="分析文件报告" Description="统计数据显示可通过应用翻译记忆库获得的预期利用。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Analysis" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\分析文件 en-us_zh-CN(1).xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="5de59457-237b-48d5-ac3d-0e1b8195fcb4" Status="Completed" CompletedAt="2020-09-04T11:02:22.8186847Z" PercentComplete="100" CreatedAt="2020-09-04T11:01:43.1100728Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:01:43.2663459Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.ProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="ed3494bd-e027-4784-a41f-0f0292e36b62" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="1f277211-cb0f-44de-8fd5-4ced67820747" Status="Completed" CompletedAt="2020-09-04T11:07:04.8824357Z" PercentComplete="100" CreatedAt="2020-09-04T11:06:25.0513457Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:06:25.0669388Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.ProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="ed483497-f09a-434e-ac9f-532671b65c51" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="e12df4eb-9bb7-49e2-8ff0-07f5c4f0b9d7" Status="Completed" CompletedAt="2020-09-04T11:29:35.6037338Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Finalize" PercentComplete="100" CreatedAt="2020-09-04T11:29:24.6818567Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:29:24.7443605Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="1cc83272-6b54-4656-a0be-3ffc96c77414" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="927e868f-41f5-453d-8b7a-b9e41d10f6c9" Status="Completed" CompletedAt="2020-09-04T11:29:55.3227983Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Finalize" PercentComplete="100" CreatedAt="2020-09-04T11:29:24.6818567Z" PredecessorTaskGuid="e12df4eb-9bb7-49e2-8ff0-07f5c4f0b9d7" StartedAt="2020-09-04T11:29:35.6037338Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.GenerateTargetTranslation</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="d263e863-00c7-4ada-a077-3d700c06c5bd" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000">
+            <Messages Level="Warning" Message="在句段 '532' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark7&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '538' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark27&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '714' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark615&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '727' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark717&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1326' 处发现多余的标记 '&lt;hyperlink value=&quot;http://facebook.com/oreilly&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1328' 处发现多余的标记 '&lt;hyperlink value=&quot;http://twitter.com/oreillymedia&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1330' 处发现多余的标记 '&lt;hyperlink value=&quot;http://www.youtube.com/oreillymedia&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1436' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LRFkHt&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1447' 处发现多余的标记 '&lt;hyperlink value=&quot;https://www.atlassian.com/devops&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1447' 处发现多余的标记 '&lt;hyperlink value=&quot;https://www.atlassian.com/devops&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1461' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J9m5HG&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1475' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2Js80IK&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1557' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2sqVEXL&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1613' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J1qnFf&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1709' 处发现多余的标记 '&lt;hyperlink value=&quot;https://amzn.to/2GZSY86&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '1829' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark159&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '3024' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark113&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '3024' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark113&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '3061' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LQYspl&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J2Po2W&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J2Po2W&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark613&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark714&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4373' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark779&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4449' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2JgUBU7&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4724' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark575&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '4794' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2sAgzqJ&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '5837' 处发现多余的标记 '&lt;hyperlink value=&quot;mailto:all_engineering_employees@google.com&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '6351' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LQ6TRQ&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '6488' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark915&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '6488' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2vgpMsX&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '7150' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2JmC8oT&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '7291' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1053&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '7478' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J5tPum&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8066' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2J6JA8F&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8071' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1179&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8110' 处发现多余的标记 '&lt;hyperlink value=&quot;https://kubernetes.io/&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8153' 处发现多余的标记 '&lt;hyperlink value=&quot;http://www.dangoldstein.com/papers/DefaultsScience.pdf&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '8293' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2xyjq9f&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9325' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2Hdgf6t&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9421' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LPemR2&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9535' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2LPemR2&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9787' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1743&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '9787' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark1743&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '10099' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2KNCD9F&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '10182' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2sAoKTX&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '10775' 处发现多余的标记 '&lt;hyperlink value=&quot;http://bit.ly/2xCtP3S&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '11412' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark833&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+            <Messages Level="Warning" Message="在句段 '12186' 处发现多余的标记 '&lt;hyperlink value=&quot;_bookmark114&quot;&gt;'。继续处理。" Source="Sdl.FileTypeSupport.Filters.MicrosoftOffice.Word.Processors.HandleActionByTagTypeProcessor" />
+          </Result>
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="5278b54f-1e35-44de-979f-bd6e75e8131c" Status="Completed" CompletedAt="2020-09-04T11:40:59.0473286Z" PercentComplete="100" CreatedAt="2020-09-04T11:40:20.8412354Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:40:20.856881Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.ProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="14d5fe09-dfc7-451c-a3e8-340e443ebcd8" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="af64ede3-c385-4c71-8c1a-70c6336cc75b" Status="Completed" CompletedAt="2020-09-04T11:45:17.1325711Z" PercentComplete="100" CreatedAt="2020-09-04T11:45:05.5770606Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:45:05.9370996Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="0b56bf61-fa8a-49b8-9168-47fce8b98d04" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="a511a24c-cde6-4fc9-bb3d-4845a1e4ecae" Status="Completed" CompletedAt="2020-09-04T11:46:46.8969159Z" PercentComplete="100" CreatedAt="2020-09-04T11:46:35.0399041Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:46:35.0553449Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="4c0c8aea-3853-4c44-8198-04af3fa17b16" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="cd43ec3a-2235-4e6f-bd2c-72c27fe46714" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新项目翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="931e7465-7f55-4234-b98a-5b35339dc104" Status="Completed" CompletedAt="2020-09-04T13:06:53.4839088Z" PercentComplete="100" CreatedAt="2020-09-04T11:48:59.4645043Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-04T11:48:59.479846Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="29aaa818-5262-4e61-8367-c90b301e992f" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="16586942-8213-4c1c-81fd-b41fb6baacfc" Name="预翻译文件报告" Description="将翻译记忆库应用到文件的结果。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\预翻译文件 en-us_zh-CN(4).xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="1044c4cc-4678-4367-96f0-d5108094648b" Status="Completed" CompletedAt="2020-09-08T17:05:22.3459918Z" PercentComplete="100" CreatedAt="2020-09-08T17:05:22.3302206Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:05:22.3459918Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="043b5771-eb0f-4785-95ff-725c79865095" Status="Completed" CompletedAt="2020-09-08T17:05:22.5023608Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:05:22.3459918Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:05:22.4864642Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="34e5feb1-dc91-4128-98ea-8abc9e18cfa7" Status="Completed" CompletedAt="2020-09-08T17:05:22.5023608Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:05:22.3459918Z" PredecessorTaskGuid="043b5771-eb0f-4785-95ff-725c79865095" StartedAt="2020-09-08T17:05:22.5023608Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="89743a06-cf1d-498c-b4f3-3652825f5a1e" Status="Completed" CompletedAt="2020-09-08T17:05:22.5023608Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:05:22.3459918Z" PredecessorTaskGuid="34e5feb1-dc91-4128-98ea-8abc9e18cfa7" StartedAt="2020-09-08T17:05:22.5023608Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="e0feff3c-9e77-4746-8db3-e4509a51ade2" Status="Completed" CompletedAt="2020-09-08T17:09:25.6760279Z" PercentComplete="100" CreatedAt="2020-09-08T17:09:25.6604106Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:09:25.6760279Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="61e1592b-57ef-469c-95d0-e02f2f0f7fcd" Status="Completed" CompletedAt="2020-09-08T17:09:25.7072935Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:09:25.6916604Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:09:25.7072935Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="d1c76eb7-c76b-4071-b7a4-ab6ae255c0d8" Status="Completed" CompletedAt="2020-09-08T17:09:25.7072935Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:09:25.6916604Z" PredecessorTaskGuid="61e1592b-57ef-469c-95d0-e02f2f0f7fcd" StartedAt="2020-09-08T17:09:25.7072935Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="4b40eacf-f882-4022-a60c-77299448c26c" Status="Completed" CompletedAt="2020-09-08T17:09:25.7072935Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:09:25.6916604Z" PredecessorTaskGuid="d1c76eb7-c76b-4071-b7a4-ab6ae255c0d8" StartedAt="2020-09-08T17:09:25.7072935Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="3da80238-49b4-4fe4-903b-bfdf0fb73539" Status="Completed" CompletedAt="2020-09-08T17:12:55.9768843Z" PercentComplete="100" CreatedAt="2020-09-08T17:12:55.8987642Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:12:55.9612893Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="19b6d0e5-fd81-4c8f-bdbf-d51138e8ea25" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="5b6583a2-291f-4dad-b23f-166309f660be" Status="Completed" CompletedAt="2020-09-08T17:15:47.6967852Z" PercentComplete="100" CreatedAt="2020-09-08T17:15:47.6655364Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:15:47.6967852Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="2b366fee-1ec7-4c26-bf91-042da5e668d0" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="2d2affb0-28a4-45ab-bd67-bbc538b0e192" Status="Completed" CompletedAt="2020-09-08T17:16:26.4816049Z" PercentComplete="100" CreatedAt="2020-09-08T17:16:26.476577Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:16:26.476577Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="b288fb4e-3675-450a-8f9c-106a2036ccea" Status="Completed" CompletedAt="2020-09-08T17:16:26.5013004Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:16:26.4833741Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:16:26.4962198Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="62e38203-8272-4b4d-8c92-e001c409c8f2" Status="Completed" CompletedAt="2020-09-08T17:16:26.5013004Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:16:26.4833741Z" PredecessorTaskGuid="b288fb4e-3675-450a-8f9c-106a2036ccea" StartedAt="2020-09-08T17:16:26.5013004Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="ad238fe7-36d9-4dca-a77a-0e348b20e0f0" Status="Completed" CompletedAt="2020-09-08T17:16:26.503026Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:16:26.4833741Z" PredecessorTaskGuid="62e38203-8272-4b4d-8c92-e001c409c8f2" StartedAt="2020-09-08T17:16:26.503026Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="c67ab452-080e-4e0d-ac19-5cebeef0d37b" Status="Completed" CompletedAt="2020-09-08T17:16:32.6917644Z" PercentComplete="100" CreatedAt="2020-09-08T17:16:32.6917644Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:16:32.6917644Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="330711e5-9362-427b-b647-60f069d3590b" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="1f81ad21-5944-4461-a6ae-474a6ce402d5" Status="Completed" CompletedAt="2020-09-08T17:17:42.3399399Z" PercentComplete="100" CreatedAt="2020-09-08T17:17:42.3399399Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:17:42.3399399Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="972a6581-1356-4c06-a256-fe3fbc620a9b" Status="Completed" CompletedAt="2020-09-08T17:17:42.3399399Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:17:42.3399399Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:17:42.3399399Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="0ee41ce2-1ea9-49aa-afa9-b54e0607203b" Status="Completed" CompletedAt="2020-09-08T17:17:42.3399399Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:17:42.3399399Z" PredecessorTaskGuid="972a6581-1356-4c06-a256-fe3fbc620a9b" StartedAt="2020-09-08T17:17:42.3399399Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="58b675fc-6f6b-4aea-917b-657b720952fe" Status="Completed" CompletedAt="2020-09-08T17:17:42.3399399Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:17:42.3399399Z" PredecessorTaskGuid="0ee41ce2-1ea9-49aa-afa9-b54e0607203b" StartedAt="2020-09-08T17:17:42.3399399Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="503d1f42-0cc0-428c-9815-490dcfc9dd7e" Status="Completed" CompletedAt="2020-09-08T17:18:23.1219135Z" PercentComplete="100" CreatedAt="2020-09-08T17:18:23.1219135Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:18:23.1219135Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="9be1b008-6f63-4922-89bd-bee09cb2e5ff" Status="Completed" CompletedAt="2020-09-08T17:18:23.1259371Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:18:23.1259371Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:18:23.1259371Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="18421381-7a19-40b8-8382-05ca417b52f8" Status="Completed" CompletedAt="2020-09-08T17:18:23.1259371Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:18:23.1259371Z" PredecessorTaskGuid="9be1b008-6f63-4922-89bd-bee09cb2e5ff" StartedAt="2020-09-08T17:18:23.1259371Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="461dd01a-1ac3-4aaf-9959-bc8ddb2ae048" Status="Completed" CompletedAt="2020-09-08T17:18:23.1259371Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:18:23.1259371Z" PredecessorTaskGuid="18421381-7a19-40b8-8382-05ca417b52f8" StartedAt="2020-09-08T17:18:23.1259371Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="2dd0b708-1d87-4f97-9db5-cd50d1e5c733" Status="Completed" CompletedAt="2020-09-08T17:30:59.32924Z" PercentComplete="100" CreatedAt="2020-09-08T17:30:59.32924Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:30:59.32924Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="d192ae15-ef09-4720-a260-b1c3176bf9e2" Status="Completed" CompletedAt="2020-09-08T17:30:59.32924Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:30:59.32924Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:30:59.32924Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="9f33f671-14c8-41ea-91d6-d3c3bf05bdc1" Status="Completed" CompletedAt="2020-09-08T17:30:59.32924Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:30:59.32924Z" PredecessorTaskGuid="d192ae15-ef09-4720-a260-b1c3176bf9e2" StartedAt="2020-09-08T17:30:59.32924Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="185b28ad-128c-4fa7-bfa6-feddd02cb810" Status="Completed" CompletedAt="2020-09-08T17:30:59.32924Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:30:59.32924Z" PredecessorTaskGuid="9f33f671-14c8-41ea-91d6-d3c3bf05bdc1" StartedAt="2020-09-08T17:30:59.32924Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="d2ba0c28-ca5c-4d6d-93f6-8b5191448fd4" Status="Completed" CompletedAt="2020-09-08T17:31:34.9313028Z" PercentComplete="100" CreatedAt="2020-09-08T17:31:34.9313028Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:31:34.9313028Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="7abc3255-0ca6-4d2e-85a3-9de7b20446c7" Status="Completed" CompletedAt="2020-09-08T17:31:34.9469141Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:31:34.9469141Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:31:34.9469141Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="72537e28-4c8e-4575-9fef-95527045a98b" Status="Completed" CompletedAt="2020-09-08T17:31:34.9469141Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:31:34.9469141Z" PredecessorTaskGuid="7abc3255-0ca6-4d2e-85a3-9de7b20446c7" StartedAt="2020-09-08T17:31:34.9469141Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="ed9b28e7-11ee-4994-9b84-a048da29aa99" Status="Completed" CompletedAt="2020-09-08T17:31:34.9625925Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:31:34.9469141Z" PredecessorTaskGuid="72537e28-4c8e-4575-9fef-95527045a98b" StartedAt="2020-09-08T17:31:34.9625925Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="89bafc73-4ec6-48a1-a444-f4936c503a8d" Status="Completed" CompletedAt="2020-09-08T17:32:26.5830532Z" PercentComplete="100" CreatedAt="2020-09-08T17:32:26.5830532Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:32:26.5830532Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="6f2773d8-278e-4df4-b8ff-97860dd9e1ff" Status="Completed" CompletedAt="2020-09-08T17:32:26.5830532Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:32:26.5830532Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:32:26.5830532Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="d1dbd1c3-cf57-49bd-ad18-489232a5a2b1" Status="Completed" CompletedAt="2020-09-08T17:32:26.5830532Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:32:26.5830532Z" PredecessorTaskGuid="6f2773d8-278e-4df4-b8ff-97860dd9e1ff" StartedAt="2020-09-08T17:32:26.5830532Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="63ac21ee-72d8-46e2-8c6e-d85478e80041" Status="Completed" CompletedAt="2020-09-08T17:32:26.5986762Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:32:26.5830532Z" PredecessorTaskGuid="d1dbd1c3-cf57-49bd-ad18-489232a5a2b1" StartedAt="2020-09-08T17:32:26.5986762Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="da128798-d30f-4759-93bd-fd8451ab9bea" Status="Completed" CompletedAt="2020-09-08T17:35:12.204019Z" PercentComplete="100" CreatedAt="2020-09-08T17:35:12.1883846Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:35:12.1883846Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="5f6d21bf-9932-41f4-a56b-86003f21ffe6" Status="Completed" CompletedAt="2020-09-08T17:35:12.204019Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:35:12.204019Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:35:12.204019Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="3194845b-468f-4a37-9f6a-ec2c5ac29983" Status="Completed" CompletedAt="2020-09-08T17:35:12.204019Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:35:12.204019Z" PredecessorTaskGuid="5f6d21bf-9932-41f4-a56b-86003f21ffe6" StartedAt="2020-09-08T17:35:12.204019Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="edba5365-ea15-4f8a-9e62-c1553e67c24d" Status="Completed" CompletedAt="2020-09-08T17:35:12.204019Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:35:12.204019Z" PredecessorTaskGuid="3194845b-468f-4a37-9f6a-ec2c5ac29983" StartedAt="2020-09-08T17:35:12.204019Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="3932b872-10c4-4a98-852a-31728857dc53" Status="Completed" CompletedAt="2020-09-08T17:47:41.3532263Z" PercentComplete="100" CreatedAt="2020-09-08T17:47:41.3532263Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:47:41.3532263Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="a176af0b-9582-406e-bf02-b83f16965868" Status="Completed" CompletedAt="2020-09-08T17:48:42.2025533Z" PercentComplete="100" CreatedAt="2020-09-08T17:48:42.2025533Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:48:42.2025533Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="9c502910-b3d0-434f-8b4d-e708807e6e85" Purpose="ReferenceFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="a2323e10-a629-4aa4-96e6-afc6a58ccb03" Status="Completed" CompletedAt="2020-09-08T17:50:19.7878944Z" PercentComplete="100" CreatedAt="2020-09-08T17:50:19.7831202Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:50:19.7838625Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="ebbd9153-af5d-47ef-83ef-261b2dadb4f5" Status="Completed" CompletedAt="2020-09-08T17:52:43.4551869Z" PercentComplete="100" CreatedAt="2020-09-08T17:52:43.4453767Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:52:43.4453767Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="978f080a-c45e-4af6-9569-2ef7a78e9a96" Status="Completed" CompletedAt="2020-09-08T17:52:43.4551869Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:52:43.4551869Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:52:43.4551869Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="40bb7fb5-d331-46bd-b4d9-6849a380b0ab" Status="Completed" CompletedAt="2020-09-08T17:52:43.4551869Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:52:43.4551869Z" PredecessorTaskGuid="978f080a-c45e-4af6-9569-2ef7a78e9a96" StartedAt="2020-09-08T17:52:43.4551869Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="6a29d167-8814-4b30-8b3f-6368c4cafe61" Status="Completed" CompletedAt="2020-09-08T17:52:43.4619169Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:52:43.4551869Z" PredecessorTaskGuid="40bb7fb5-d331-46bd-b4d9-6849a380b0ab" StartedAt="2020-09-08T17:52:43.4619169Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files />
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="e107c0e3-f3dc-4f3b-9cab-26c3a6cbe74f" Status="Completed" CompletedAt="2020-09-08T17:53:42.2695991Z" PercentComplete="100" CreatedAt="2020-09-08T17:53:42.0820813Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:53:42.0820813Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Scan</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="a2a61983-1d65-4512-85bd-f804d4a70f38" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="b2fe126d-7b94-4cc5-8b87-0ac7309f23b7" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="b2fe126d-7b94-4cc5-8b87-0ac7309f23b7" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="30c22acd-1d73-4e07-94f2-4114ce99258f" Status="Completed" CompletedAt="2020-09-08T17:53:43.364379Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:53:42.2695991Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:53:42.2695991Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Conversion</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="5f4a8f56-3ec7-4c9e-a1f5-99f0e2ab4c7a" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="b2fe126d-7b94-4cc5-8b87-0ac7309f23b7" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="b2fe126d-7b94-4cc5-8b87-0ac7309f23b7" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="45a793e1-57db-4b2d-ba81-a353d7cb2b64" Status="Completed" CompletedAt="2020-09-08T17:53:43.3790126Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:53:42.2695991Z" PredecessorTaskGuid="30c22acd-1d73-4e07-94f2-4114ce99258f" StartedAt="2020-09-08T17:53:43.3790126Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Split</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="28edcc33-5859-4881-aa03-a53cc4e6965d" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="b2fe126d-7b94-4cc5-8b87-0ac7309f23b7" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <AutomaticTask Guid="4362a387-5b7a-43a6-a15a-6448c8327e60" Status="Completed" CompletedAt="2020-09-08T17:54:15.5843109Z" ComplexTaskTemplateId="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM" PercentComplete="100" CreatedAt="2020-09-08T17:53:42.2695991Z" PredecessorTaskGuid="45a793e1-57db-4b2d-ba81-a353d7cb2b64" StartedAt="2020-09-08T17:53:43.3945804Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.PerfectMatch</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Translate</TaskTemplateId>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="1e64e72b-2299-41d5-b87c-6fe93d3ed840" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="a2564839-0022-4793-8ecb-b6b9e41b1e1a" Name="预翻译文件报告" Description="将翻译记忆库应用到文件的结果。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\预翻译文件 en-us_zh-CN(5).xml" />
+        <Report Guid="2168871a-6ad2-439a-93c0-e2f7cb3714c9" Name="分析文件报告" Description="统计数据显示可通过应用翻译记忆库获得的预期利用。" TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Analysis" LanguageDirectionGuid="e50dca83-3f1d-442e-a1e0-3b38bdab83f9" PhysicalPath="Reports\分析文件 en-us_zh-CN(2).xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到翻译记忆库以查找语言对 English (United States)-&gt;Chinese (Simplified, China) 的翻译。" Source="预翻译文件" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="465c7a90-ca86-4b4b-8860-9d883e844ca8" Status="Completed" CompletedAt="2020-09-08T17:59:17.9816327Z" PercentComplete="100" CreatedAt="2020-09-08T17:59:12.6529562Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T17:59:12.7467004Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="24f7d8d9-d6f4-405d-bac0-ac9657fabb5e" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="8489283e-1990-43b1-b55c-d0b84a303604" Status="Completed" CompletedAt="2020-09-08T18:00:11.8364389Z" PercentComplete="100" CreatedAt="2020-09-08T18:00:06.5289365Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-08T18:00:06.5441512Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="04560143-03e2-4b6b-9a1c-56c96b7992a1" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新项目翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="291b9f35-0356-4b30-9e5f-13a2e71d63bc" Status="Completed" CompletedAt="2020-09-09T08:52:43.8105336Z" PercentComplete="100" CreatedAt="2020-09-09T08:52:38.0604963Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-09T08:52:38.0761619Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="e32c6f65-6bbe-488b-a48c-2e5af87a1a21" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="69e43650-442e-44f9-bd46-bc5b2e5796d9" Status="Completed" CompletedAt="2020-09-09T13:26:22.4723221Z" PercentComplete="100" CreatedAt="2020-09-09T13:26:16.9096162Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-09T13:26:16.9252521Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="8b8f65fa-7c58-4667-8a90-265f0d06c606" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="f9cd9e2f-2e2f-4b49-b67f-1c4714cb796d" Status="Completed" CompletedAt="2020-09-12T11:32:19.86574Z" PercentComplete="100" CreatedAt="2020-09-12T11:31:58.6671304Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-12T11:31:58.6827288Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="11d775cd-63b3-477b-93e6-646403d7de0d" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="80ef327c-3ef2-47ae-bd19-719870c4886c" Status="Completed" CompletedAt="2020-09-12T14:00:11.8552288Z" PercentComplete="100" CreatedAt="2020-09-12T14:00:05.2606341Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-12T14:00:05.2762584Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="b159959e-90f1-43f5-ad38-62ffe3eff486" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+  </Tasks>
+  <PackageOperations>
+    <ProjectPackageCreationOperations />
+    <ProjectPackageImportOperations />
+    <ReturnPackageCreationOperations />
+    <ReturnPackageImportOperations />
+  </PackageOperations>
+</Project>
