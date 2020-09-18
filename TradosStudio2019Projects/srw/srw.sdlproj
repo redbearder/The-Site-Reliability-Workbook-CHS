@@ -586,10 +586,10 @@
             <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
             <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
           </AnalysisStatistics>
-          <ConfirmationStatistics FileTimeStamp="2020-09-18T06:19:55.6232613Z" Status="Complete">
+          <ConfirmationStatistics FileTimeStamp="2020-09-18T18:14:17.5153095Z" Status="Complete">
             <Unspecified Words="100" Characters="891" Segments="64" Placeables="27" Tags="0" />
-            <Draft Words="73033" Characters="431765" Segments="8350" Placeables="4103" Tags="0" />
-            <Translated Words="85589" Characters="494558" Segments="6164" Placeables="3013" Tags="0" />
+            <Draft Words="68738" Characters="399160" Segments="8004" Placeables="4042" Tags="0" />
+            <Translated Words="89884" Characters="527163" Segments="6510" Placeables="3074" Tags="0" />
             <RejectedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
             <ApprovedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
             <RejectedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
