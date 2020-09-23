@@ -568,6 +568,9 @@
             <FileVersion Guid="5563cab7-7e4b-4da0-8968-56059e43937f" VersionNumber="8" Size="10818477" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-09T13:26:22.4723221Z" FileTimeStamp="2020-09-09T13:26:22.0821282Z" IsAutoUpload="false" />
             <FileVersion Guid="a5807487-2995-4d96-bf89-d881f3a5421f" VersionNumber="9" Size="10932363" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-12T11:32:19.86574Z" FileTimeStamp="2020-09-12T11:32:19.4437808Z" IsAutoUpload="false" />
             <FileVersion Guid="307eeb69-087b-4570-b7eb-ebb73d7862d4" VersionNumber="10" Size="11069911" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-12T14:00:11.8552288Z" FileTimeStamp="2020-09-12T14:00:11.4325268Z" IsAutoUpload="false" />
+            <FileVersion Guid="d1f36044-8cb6-4e61-b7ec-613f3c37a087" VersionNumber="11" Size="12430776" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新主翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-22T13:18:23.617767Z" FileTimeStamp="2020-09-22T13:18:22.9746725Z" IsAutoUpload="false" />
+            <FileVersion Guid="c5ce5048-c8c7-4820-ac0d-eb5ee006ce52" VersionNumber="12" Size="12430776" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新项目翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-22T13:19:59.9595351Z" FileTimeStamp="2020-09-22T13:19:59.2251613Z" IsAutoUpload="false" />
+            <FileVersion Guid="705240d4-7d1b-447a-a40f-c9075ffe8883" VersionNumber="13" Size="12430776" FileName="srw.txt.sdlxliff" PhysicalPath="zh-CN\srw.txt.sdlxliff" Comment="Created by '更新项目翻译记忆库'" CreatedBy="DESKTOP-HS8UPJE\wangyzj" CreatedAt="2020-09-22T13:27:37.4957551Z" FileTimeStamp="2020-09-22T13:27:37.0270087Z" IsAutoUpload="false" />
           </FileVersions>
           <AnalysisStatistics WordCountFileTimeStamp="2020-09-08T17:54:15.2874114Z" WordCountStatus="Complete" AnalysisFileTimeStamp="2020-09-08T17:54:15.2874114Z" AnalysisStatus="Complete">
             <Total Words="158722" Characters="927214" Segments="14578" Placeables="7143" Tags="0" />
@@ -586,10 +589,10 @@
             <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
             <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
           </AnalysisStatistics>
-          <ConfirmationStatistics FileTimeStamp="2020-09-22T10:35:54.2392488Z" Status="Complete">
+          <ConfirmationStatistics FileTimeStamp="2020-09-23T13:27:11.8024343Z" Status="Complete">
             <Unspecified Words="142" Characters="1499" Segments="124" Placeables="35" Tags="0" />
-            <Draft Words="36043" Characters="216985" Segments="5756" Placeables="3298" Tags="0" />
-            <Translated Words="122537" Characters="708730" Segments="8698" Placeables="3810" Tags="0" />
+            <Draft Words="28751" Characters="177195" Segments="5189" Placeables="3056" Tags="0" />
+            <Translated Words="129829" Characters="748520" Segments="9265" Placeables="4052" Tags="0" />
             <RejectedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
             <ApprovedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
             <RejectedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
@@ -1818,6 +1821,76 @@
       <Result Guid="00000000-0000-0000-0000-000000000000">
         <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
       </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="0d9e6c95-9ecb-4ac1-8a83-344bab477632" Status="Completed" CompletedAt="2020-09-22T13:18:23.6309237Z" PercentComplete="100" CreatedAt="2020-09-22T13:18:16.1095676Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-22T13:18:16.3226991Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateMasterTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="cfce58c1-db94-49ea-98be-8f948845596d" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新主翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="5e55d5ba-0fd5-4b4a-a71b-1dfb5a476258" Status="Completed" CompletedAt="2020-09-22T13:19:59.9595351Z" PercentComplete="100" CreatedAt="2020-09-22T13:19:49.2823137Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-22T13:19:49.2977956Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="6ce9445f-3e68-4d25-be64-a5ff6dc17745" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新项目翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="50bfbb29-c0f6-4e3b-8b1c-20d61d8458f6" Status="Completed" CompletedAt="2020-09-22T13:27:37.4957551Z" PercentComplete="100" CreatedAt="2020-09-22T13:27:31.3082556Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-22T13:27:31.3238699Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.UpdateProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="3de9cf21-de99-47ea-adaf-8eb211521d3e" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000">
+        <Messages Level="Warning" Message="找不到语言对 English (United States)-&gt;Chinese (Simplified, China) 的待更新翻译记忆库。" Source="更新项目翻译记忆库" />
+      </Result>
+    </AutomaticTask>
+    <AutomaticTask Guid="e67deba7-202e-45da-a53a-9cc0e186f7db" Status="Completed" CompletedAt="2020-09-22T13:37:41.3822965Z" PercentComplete="100" CreatedAt="2020-09-22T13:37:19.6208055Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" StartedAt="2020-09-22T13:37:19.7144227Z" CreatedBy="DESKTOP-HS8UPJE\wangyzj">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.ProjectTm</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="514f266e-8e09-494d-915e-2a7175117b4a" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="c440f5f7-1706-40c1-937b-5be51f902b93" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
     </AutomaticTask>
   </Tasks>
   <PackageOperations>
