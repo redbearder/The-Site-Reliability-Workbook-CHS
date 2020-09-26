@@ -189,3 +189,54 @@ DevOps和SRE都需要讨论，管理支持和实际工作人员的支持，以�
 - [*云系统管理实践:Web* *服务的DevOps和SRE实践，第2卷*](https://amzn.to/2GZSY86)
 
 - [*加速:精益软件和DevOps科学*](https://amzn.to/2LGQ9fK)
+
+
+
+<br/>
+<br/>
+
+[^1]: 请注意，此讨论出现在有关SRE的书中，其中一些讨论特定于软件服务操作，而不是IT操作。
+
+[^2]: 玛丽·波彭迪克(Mary Poppendieck)在这方面有一篇出色的文章，名为"[成本中心陷阱](http://bit.ly/2LRFkHt)"。这种方法失败的另一种方式是，当一场非常大且不可能的灾难完全抵消了您采用低等级运营模式所节省的成本时(参见[2017年5月英国航空公司的停运](https: //ind.d pn/2LNQflE))。
+
+[^3]: 当然，还有许多其他潜在的反应。例如，ITIL®是另一种IT管理方法，倡导更好的标准化。
+
+[^4]: 还要注意，因为这是一个复杂的世界，所以也存在[正效应](http://bit.ly/2JaOddH)到[分区](http://bit.ly/2L9Mw0s)，孤岛等，但是在运营领域，不利因素似乎尤其严重。
+
+[^5]: 请参阅[*https: //en.wikipedia.org/wiki/Normal_Accidents*](https://en.wikipedia.org/wiki/Normal_Accidents)。
+
+[^6]: 较高风险的更改或无法通过自动方式确认的更改，显然应该由人类审核，即使不是由他们实施的。
+
+[^7]: Google的SRE历史来自前身的团队，该团队更注重运营，Ben从工程的角度提供了解决问题的动力。
+
+[^8]: 这在很多方面都是用词不当，也许最根本的原因是您不能仅仅雇用一些人，称他们为"DevOps工程师"，并立即期望收益。您必须接受改变工作方式以受益的全部理念。正如[Andrew Clay Shafer](http://bit.ly/2sy7UVI)所说一样，"人们出售DevOps，但您买不到。"而且，正如Seth Vargo在["DevOps的十大神话"](http://bit.ly/2HcHmP1)中指出的那样，您不能"雇用DevOp来修复您的组织"。
+
+[^9]: 服务水平目标是特定指标性能的目标(例如，有99.9％的时间可用)。
+
+
+[^10]: 当然，不是每个团队都做所有事情，但是这些是SRE工作的最常见标题。
+
+[^11]: 如果您将其视为分层堆栈，请执行分层冲突。
+
+[^12]: 实际上，有任何内容*的生产准备情况审查； SRE不仅会从一开始就提供车载服务。
+
+[^13]: 服务通常被定义为运行以执行某些业务需求的软件，通常具有可用性约束。
+
+
+[^14]: 在Google内部，这个问题已得到解决，服务始终会更改状态，配置，所有权，方向等。在一定程度上，Google的SRE曾是"抗争是必要的"论点的受益者，该论点过去曾被抗争并赢得过多次胜利。但是，正如威廉·吉布森(William Gibson)可能说的那样，并不是完全[均匀分布](http://bit.ly/2J1qnFf)。
+
+[^15]: 请参阅[*https://devops-research.com/research.html*](https://devops-research.com/research.html)上的相关研究。
+
+[^16]: 请参阅[*http: //en.wikipedia.org/wiki/Goodhart%27s_law*](http://en.wikipedia.org/wiki/Goodhart%27s_law)和[*https: //skybrary.aero/bookshelf/books/2336.pdf*](https://skybrary.aero/bookshelf/books/2336.pdf)。
+
+
+[^17]: 参见例如[*https: //codeascraft.com/2012/05/22/blameless-postmortems/*](https://codeascraft.com/2012/05/22/blameless-postmortems/)。
+
+[^18]: 在具有发达文化的组织中。早期公司可能没有建立奖励这些工作角色的方法。
+
+[^19]: 确实，可以说，除非您外包操作，否则这是您的*唯一*选择。
+
+[^20]: 有关如何在不同上下文中应用SRE原则的讨论，请参见第20章。
+
+
+[^21]: 换句话说，简单地淘汰一组DevOps或SRE，而无需改变他们的组织位置，导致在无法实现预期的改进时不可避免地使团队蒙羞。
