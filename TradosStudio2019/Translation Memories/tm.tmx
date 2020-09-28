@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="SDL Language Platform" creationtoolversion="8.1" o-tmf="SDL TM8 Format" datatype="xml" segtype="sentence" adminlang="en-US" srclang="en-US" creationdate="20200904T114413Z" creationid="DESKTOP-HS8UPJE\wangyzj">
+    <prop type="x-Recognizers">RecognizeAll</prop>
+    <prop type="x-IncludesContextContent">True</prop>
+    <prop type="x-TMName">srw</prop>
+    <prop type="x-TokenizerFlags">DefaultFlags</prop>
+    <prop type="x-WordCountFlags">DefaultFlags</prop>
+  </header>
+  <body />
+</tmx>
